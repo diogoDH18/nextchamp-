@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Rede Social</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 500px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      background: white;
+      color: #2575fc;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🚀 Minha Rede Social</h1>
+    <p>Um novo jeito de se conectar</p>
+  </header>
+
+  <div class="card">
+    <h2>Primeiro Post</h2>
+    <p>Esse é o começo da minha rede social 🔥</p>
+    <button>Curtir</button>
+  </div>
+
+  <div class="card">
+    <h2>Segundo Post</h2>
+    <p>Agora isso já está com cara de app 😎</p>
+    <button>Curtir</button>
+  </div>
+
+</body>
+</html>
