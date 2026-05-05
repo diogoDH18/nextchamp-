@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Rede Social</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .post {
+      background: #1e293b;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 12px;
+    }
+
+    .user {
+      font-weight: bold;
+      color: #60a5fa;
+    }
+
+    .like {
+      margin-top: 10px;
+      background: #2563eb;
+      border: none;
+      padding: 8px 12px;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .like:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🚀 Minha Rede Social</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="post">
+      <div class="user">@joao</div>
+      <p>Começando minha nova rede social 😎</p>
+      <button class="like">Curtir ❤️</button>
+    </div>
+
+    <div class="post">
+      <div class="user">@maria</div>
+      <p>Isso aqui tá ficando interessante 🔥</p>
+      <button class="like">Curtir ❤️</button>
+    </div>
+
+    <div class="post">
+      <div class="user">@você</div>
+      <p>Meu primeiro post na plataforma 🚀</p>
+      <button class="like">Curtir ❤️</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
