@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Site</title>
+  <style>
+    body {
+      background: #2575fc;
+      color: white;
+      text-align: center;
+      font-family: Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>Funcionando 🚀</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minha Rede Social</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🚀 Minha Rede Social</h1>
+
+  <div class="card">
+    <h2>Primeiro Post</h2>
+    <p>Tá ficando bonito 😎</p>
+  </div>
+
+</body>
+</html>
